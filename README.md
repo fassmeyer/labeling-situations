@@ -23,7 +23,6 @@ Arguments:
 - `--epochs`: Training epochs. Default is '30'.
 - `--batch_size`: Mini-batch size. Default is '32'.
 <br>
-<br>
 - `--dataset`: Path to training/game data. 
 - `--weights`: File name for the learned parameters of the model. 
 
@@ -44,7 +43,6 @@ Main arguments:
 - `--labeled_batch_size`: Mini-batch size of the labeled data. Default is '4'. 
 - `--cost_annealing`: Warm-up the KLD in the early training epochs. Default is 'True'.
 - `--num_classes`: Number of classes for the auxiliary classifier. Default is '5'.
-<br>
 <br>
 - `--unlabeled_frames`: Path to unlabeled training/game data. 
 - `--labeled_frames`: Path to labeled training/game data.
@@ -67,7 +65,6 @@ Main arguments:
 - `--epochs`: Training epochs. Default is '30'.
 - `--timesteps`: Sequence length. Default is '20'.
 - `--batch_size`: Mini-batch size. Default is '32'. 
-<br>
 <br>
 - `--dataset`: Path to training/game data. 
 - `--weights`: File name for the learned parameters of the model.  
@@ -95,7 +92,6 @@ Main arguments:
 - `--labeled_batch_size`: Mini-batch size of the labeled data. Default is '4'. 
 - `--num_classes`: Number of classes for the auxiliary classifier. Default is '5'.
 - `--cost_annealing`: Warm-up the KLD in the early training epochs. Default is 'False'.
-<br>
 <br>
 - `--unlabeled_frames`: Path to unlabeled training/game data. 
 - `--labeled_sequences`: Path to labeled sequences. 

@@ -23,6 +23,7 @@ Arguments:
 - `--epochs`: Training epochs. Default is '30'.
 - `--batch_size`: Mini-batch size. Default is '32'.
 <br>
+
 - `--dataset`: Path to training/game data. 
 - `--weights`: File name for the learned parameters of the model. 
 

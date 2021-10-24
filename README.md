@@ -45,6 +45,7 @@ Main arguments:
 - `--cost_annealing`: Warm-up the KLD in the early training epochs. Default is 'True'.
 - `--num_classes`: Number of classes for the auxiliary classifier. Default is '5'.
 <br>
+
 - `--unlabeled_frames`: Path to unlabeled training/game data. 
 - `--labeled_frames`: Path to labeled training/game data.
 - `--labels`: The labels assigned to the labeled_frames data.
@@ -67,6 +68,7 @@ Main arguments:
 - `--timesteps`: Sequence length. Default is '20'.
 - `--batch_size`: Mini-batch size. Default is '32'. 
 <br>
+
 - `--dataset`: Path to training/game data. 
 - `--weights`: File name for the learned parameters of the model.  
 
@@ -94,6 +96,7 @@ Main arguments:
 - `--num_classes`: Number of classes for the auxiliary classifier. Default is '5'.
 - `--cost_annealing`: Warm-up the KLD in the early training epochs. Default is 'False'.
 <br>
+
 - `--unlabeled_frames`: Path to unlabeled training/game data. 
 - `--labeled_sequences`: Path to labeled sequences. 
 - `--labels`: The labels assigned to the labeled_sequences data.
